@@ -1,0 +1,19 @@
+{
+  "name": "@ajhalili2006/hydralite-custom-cz-adapter-example",
+  "version": "0.1.0",
+  "description": "Test repo to see if we can init stuff from tarballs.",
+  "main": "index.js",
+  "repository": "https://github.com/ajhalili2006/hydralite-custom-cz-adapter-example.git",
+  "author": "Andrei Jiroh Eugenio Halili <andreijiroh@madebythepins.tk>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@hydralite/cz-commitlint-config": "https://gitpkg.vercel.app/MadeByThePinsHub/hydralite/cz-commitlint-config?gitpodify",
+    "commitizen": "^4.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@hydralite/cz-commitlint-config"
+    }
+  }
+}
