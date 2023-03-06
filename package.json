@@ -9,7 +9,7 @@
   "private": true,
   "devDependencies": {
     "@hydralite/cz-commitlint-config": "https://gitpkg.vercel.app/MadeByThePinsHub/hydralite/cz-commitlint-config?gitpodify",
-    "commitizen": "^4.2.4"
+    "commitizen": "^4.3.0"
   },
   "config": {
     "commitizen": {
